@@ -61,6 +61,8 @@ Greatest Decrease in Profits: {min_pnl_date} (${min_pnl})
 '''
 )
 
+os.mkdir('analysis')
+
 with open("analysis/output.txt", "w") as text_file:
     text_file.write(
         f'''

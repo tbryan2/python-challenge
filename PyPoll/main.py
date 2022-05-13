@@ -57,6 +57,8 @@ Winner: {winner}
 '''
 )
 
+os.mkdir('analysis')
+
 #output_path = os.path.join("analysis", "output.txt")
 with open ("analysis/output.txt", "w") as text_file:
     text_file.write(
